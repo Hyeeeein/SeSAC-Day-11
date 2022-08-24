@@ -1,0 +1,107 @@
+.more{
+    /* background-color: #f0f0f0; */
+}
+
+/* 계정 부분 */
+.more .more-header{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.more .more-header i{
+    padding-right: 15px;
+    color: #523737;
+}
+.more .more-header-column{
+    display: flex;
+}
+.more .more-header-column img{
+    width: 40px;
+    border-radius: 50%;
+}
+.more-header-column .more-header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+.more-header-column .more-header-info h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.more-header-column .more-header-info p{
+    font-size: 11px;
+    color: darkgray;
+}
+
+/* 아이콘 부분 */
+.more .more-options{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 10px;
+}
+.more-options .more-option-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #523737;
+    font-size: 12px;
+}
+.more-option-list i{
+    margin-bottom: 10px;
+
+}
+
+/* 플러스 프렌즈 부분 */
+.more-plus-friends .more-pf-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 30px 15px;
+}
+.more-pf-header span{
+    color: #9999;
+}
+
+/* 아이템 부분 */
+.more-pf-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.more-pf-items .more-pf-item{
+    width: 50%;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.more-pf-items>div:nth-child(2n-1){
+    padding-left: 15px;
+}
+.more-pf-items .more-pf-item i{
+    margin-right: 20px;
+}
+
+/* 링크 */
+
+.more-links{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.more-links .more-link-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.more-links .more-link-item img{
+    width: 40px;
+}
+.more-links .more-link-item span{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
